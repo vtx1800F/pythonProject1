@@ -10,3 +10,5 @@ D = per_cent.get('СБЕР')
 Bank4 = money*D/100
 deposit = [Bank1, Bank2, Bank3, Bank4]
 print(list(map(int, deposit)))
+depositmax = max(deposit)
+print("Максимально выгодный депозит",(round(depositmax)))
